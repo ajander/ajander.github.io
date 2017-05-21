@@ -7,16 +7,6 @@ date: 2017-05-21
 <head>
 <style>
 
-	.chart rect {
-	  fill: steelblue;
-	}
-
-	.chart text {
-	  fill: white;
-	  font: 10px sans-serif;
-	  text-anchor: end;
-	}
-
 	div.tooltip {	
 	    position: absolute;			
 	    text-align: center;			
@@ -38,7 +28,7 @@ Sources:
 * d3noob's [Simple d3.js tooltips](http://bl.ocks.org/d3noob/a22c42db65eb00d4e369)
 
 <body>
-	<svg id="example"></svg>
+	<svg class="bar-chart"></svg>
 	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<script src="https://ajander.github.io/js/2017-05-21-bar-chart-with-tooltips.js"></script>
 

@@ -1,26 +1,10 @@
-// // define input data
-// var data = [4, 8, 15, 16, 23, 42];
-
-// // Part I: Using just regular html elements
-
-// var x = d3.scale.linear()
-// 	.domain([0, d3.max(data)])
-// 	.range([0, 420]);
-
-// d3.select('#example')
-//   .selectAll('div')
-//     .data(data)
-//   .enter().append('div')
-//   	.style('width', function(d) { return x(d) + 'px'; })
-//   	.text(function(d) { return d; });
-
 var width = 420,
  	barHeight = 20;
 
 var x = d3.scale.linear()
 	.range([0, 420]);
 
-var chart = d3.select('#example')
+var chart = d3.select('.bar-chart')
 	.attr('width', width)
 
 d3.tsv('https://ajander.github.io/data.tsv', type, function(error, data) {
