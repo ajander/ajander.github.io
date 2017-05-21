@@ -13,7 +13,7 @@ var div = d3.select("body").append("div")
 
 function mousemove() {
   div.style("left", (d3.event.pageX + 10) + "px")
-      .style("top", (d3.event.pageY - 38) + "px");
+      .style("top", (d3.event.pageY - 58) + "px");
 }
 
 function mouseout() {
