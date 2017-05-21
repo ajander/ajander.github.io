@@ -46,8 +46,6 @@ d3.tsv('./data.tsv', type, function(error, data) {
 	 	.attr('dy', '.35em')							// center the text vertically
 	 	.text(function(d) { return d.value; });
 
-	
-
 })
 
 function type(d) {
