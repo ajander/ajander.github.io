@@ -23,7 +23,8 @@ var x = d3.scale.linear()
 var chart = d3.select('#example')
 	.attr('width', width)
 
-d3.tsv('https://ajander.github.io/data.tsv', type, function(error, data) {
+// d3.tsv('https://ajander.github.io/data.tsv', type, function(error, data) {
+d3.tsv('./data.tsv', type, function(error, data) {
 	x.domain([0, d3.max(data, function(d) { return d.value; })]);
 
 	chart.attr('height', barHeight * data.length);
