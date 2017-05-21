@@ -4,10 +4,7 @@ title: "Basic Bar Chart with Tooltips"
 date: 2017-05-21
 ---
 
-Sources:
-* Mike Bostock's [Absolute-Positioned Tooltip](https://bl.ocks.org/mbostock/1087001)
-* d3noob's [Simple d3.js tooltips](http://bl.ocks.org/d3noob/a22c42db65eb00d4e369)
-
+<head>
 <style>
 
 	.chart rect {
@@ -34,6 +31,11 @@ Sources:
 	}
 
 </style>
+</head>
+
+Sources:
+* Mike Bostock's [Absolute-Positioned Tooltip](https://bl.ocks.org/mbostock/1087001)
+* d3noob's [Simple d3.js tooltips](http://bl.ocks.org/d3noob/a22c42db65eb00d4e369)
 
 <body>
 	<svg id="example"></svg>
