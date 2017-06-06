@@ -29,7 +29,7 @@ Sources:
 * [Just about everything else](https://bost.ocks.org/mike/bar/3/)
 
 <body>
-	<h1>Percent of Tertiary Degrees in Computer Science Awarded to Women, By Country (2012)</h1>
+	<div class="chart-title">Percent of Tertiary Degrees in Computer Science Awarded to Women, By Country (2012)</div>
 	<svg class="chart"></svg>
 	<div class="caption">OECD 2012: <a href="http://www.oecd.org/gender/data/education/">
 	http://www.oecd.org/gender/data/education/</a></div>

@@ -20,6 +20,10 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+.chart-title {
   font-family: georgia;
   font-size: 16px;
 }
