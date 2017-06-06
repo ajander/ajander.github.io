@@ -34,6 +34,6 @@ Sources:
 	<div class="caption">OECD 2012: <a href="http://www.oecd.org/gender/data/education/">
 	http://www.oecd.org/gender/data/education/</a></div>
 	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-	<script src="https://ajander.github.io/js/2017-05-21-bar-chart-with-tooltips.js"></script>
+	<script src="https://ajander.github.io/js/2017-06-05-vertical-bar-chart-with-axes.js"></script>
 
 </body>
