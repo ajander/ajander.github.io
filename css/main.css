@@ -43,7 +43,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-.bar-chart rect {
+/*.bar-chart rect {
   fill: steelblue;
 }
 .bar-chart text {
@@ -55,7 +55,7 @@ hr {
     border: 0;
     height: 1px;
     background: #696969;
-}
+}*/
 .chart rect {
   fill: #ff9900;
 }
