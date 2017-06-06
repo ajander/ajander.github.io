@@ -19,10 +19,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
-/*h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}*/
+h1 {
+  font-family: georgia;
+  font-size: 16px;
+}
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -72,12 +72,6 @@ hr {
   fill: black;
   font: 10px sans-serif;
 }
-
-h1 {
-  font-family: georgia;
-  font-size: 16px;
-}
-
 .caption {
   font-family: georgia;
   font-size: 11px;
