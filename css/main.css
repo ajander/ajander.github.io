@@ -19,10 +19,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
+/*h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
+}*/
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -58,3 +58,65 @@ hr {
     background: #696969;
 }
 
+.chart rect {
+  fill: #ff9900;
+}
+
+.chart text {
+  fill: white;
+  font: 9px sans-serif;
+  text-anchor: end;
+}
+
+.axis text {
+  fill: black;
+  font: 10px sans-serif;
+}
+
+h1 {
+  font-family: georgia;
+  font-size: 16px;
+}
+
+.caption {
+  font-family: georgia;
+  font-size: 11px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis path {
+  display: none;
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 2 2;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+div.tooltip {   
+    position: absolute;         
+    text-align: center;         
+    width: 80px;                    
+    height: 45px;                   
+    padding: 6px;               
+    font-size: 10px;
+    font-family: Arial;
+    color: black;
+    font-weight: normal;
+    background: white;
+    border: 1px solid #c0c0c0;
+    box-shadow: 0px 2px 2px #888888;
+    pointer-events: none;           
+}

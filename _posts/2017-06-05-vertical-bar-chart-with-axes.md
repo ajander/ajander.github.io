@@ -24,11 +24,15 @@ date: 2017-06-05
 </head>
 
 Sources:
-* Mike Bostock's [Absolute-Positioned Tooltip](https://bl.ocks.org/mbostock/1087001)
-* d3noob's [Simple d3.js tooltips](http://bl.ocks.org/d3noob/a22c42db65eb00d4e369)
+* [Sorting data](https://bl.ocks.org/rcrocker13/66a11b84ff86edc61ffb61b3d99cf02a)
+* [Gridlines](https://bl.ocks.org/d3noob/c506ac45617cf9ed39337f99f8511218)
+* [Just about everything else](https://bost.ocks.org/mike/bar/3/)
 
 <body>
+	<h1>Percent of Tertiary Degrees in Computer Science Awarded to Women, By Country (2012)</h1>
 	<svg class="bar-chart"></svg>
+	<div class="caption">OECD 2012: <a href="http://www.oecd.org/gender/data/education/">
+	http://www.oecd.org/gender/data/education/</a></div>
 	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<script src="https://ajander.github.io/js/2017-05-21-bar-chart-with-tooltips.js"></script>
 
