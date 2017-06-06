@@ -28,7 +28,7 @@ Sources:
 * d3noob's [Simple d3.js tooltips](http://bl.ocks.org/d3noob/a22c42db65eb00d4e369)
 
 <body>
-	<svg class="bar-chart"></svg>
+	<svg id="bar-chart"></svg>
 	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<script src="https://ajander.github.io/js/2017-05-21-bar-chart-with-tooltips.js"></script>
 

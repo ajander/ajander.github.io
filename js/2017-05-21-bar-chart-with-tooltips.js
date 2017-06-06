@@ -4,7 +4,7 @@ var width = 420,
 var x = d3.scale.linear()
 	.range([0, 420]);
 
-var chart = d3.select('.bar-chart')
+var chart = d3.select('#bar-chart')
 	.attr('width', width)
 
 var div = d3.select("body").append("div")
