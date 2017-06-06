@@ -8,17 +8,20 @@ date: 2017-06-05
 <style>
 
 	div.tooltip {	
-	    position: absolute;			
-	    text-align: center;			
-	    width: 80px;					
-	    height: 40px;					
-	    padding: 6px;				
-	    font: 12px "Arial";		
-	    background: white;
-	    border: 1px solid #c0c0c0;
-	    box-shadow: 0px 2px 2px #888888;
-	    pointer-events: none;			
-	}
+    position: absolute;			
+    text-align: center;			
+    width: 80px;					
+    height: 45px;					
+    padding: 6px;				
+    font-size: 10px;
+    font-family: Arial;
+    color: black;
+    font-weight: normal;
+    background: white;
+    border: 1px solid #c0c0c0;
+    box-shadow: 0px 2px 2px #888888;
+    pointer-events: none;			
+}
 
 </style>
 </head>
