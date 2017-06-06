@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Basic Bar Chart with Tooltips"
-date: 2017-05-21
+title: "Vertical Bar Chart With Axes"
+date: 2017-06-05
 ---
 
 <head>
