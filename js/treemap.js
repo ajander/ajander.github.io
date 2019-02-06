@@ -1,13 +1,42 @@
-var treemap = d3.select("#vis").append("svg")
-
-            .chart("treemap")
-
-              .value("size")
-              .sortable("_DESC_")
-              //.zoomable()
-              .collapsible()
-              //.duration()
-              //.colors(['#FF0000', '#00FF00', '#0000FF'])
-              ;
-
-          treemap.draw(json);
+Highcharts.chart('chart', {
+    colorAxis: {
+        minColor: '#FFFFFF',
+        maxColor: Highcharts.getOptions().colors[0]
+    },
+    series: [{
+        type: 'treemap',
+        layoutAlgorithm: 'squarified',
+        data: [{
+            name: 'A',
+            value: 6,
+            colorValue: 1
+        }, {
+            name: 'B',
+            value: 6,
+            colorValue: 2
+        }, {
+            name: 'C',
+            value: 4,
+            colorValue: 3
+        }, {
+            name: 'D',
+            value: 3,
+            colorValue: 4
+        }, {
+            name: 'E',
+            value: 2,
+            colorValue: 5
+        }, {
+            name: 'F',
+            value: 2,
+            colorValue: 6
+        }, {
+            name: 'G',
+            value: 1,
+            colorValue: 7
+        }]
+    }],
+    title: {
+        text: 'Highcharts Treemap'
+    }
+});
