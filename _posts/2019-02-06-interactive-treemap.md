@@ -20,7 +20,7 @@ Working on interactive treemap...
 
 </style>
 
-<svg class="chart"></svg>
+<svg id="chart"></svg>
 
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="https://ajander.github.io/js/treemap.js"></script>

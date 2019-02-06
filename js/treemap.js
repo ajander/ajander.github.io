@@ -4,7 +4,7 @@ var width = 420,
 var x = d3.scale.linear()
 	.range([0, 420]);
 
-var chart = d3.select('.chart')
+var chart = d3.select('#chart')
 	.attr('width', width)
 
 d3.tsv('https://ajander.github.io/data/data.tsv', type, function(error, data) {
