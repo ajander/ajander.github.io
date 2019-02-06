@@ -6,3 +6,25 @@ title: Adrienne Anderson
 	<h1>Adrienne Anderson</h1>
 	<p>Data visualizations using d3.js</a></p>
 </div><!-- /.blurb -->
+
+<script>
+      (function() {
+        d3.json("https://rawgit.com/annaghi/d3.chart.layout.hierarchy/master/example/data/flare.json", function(error, json) {
+
+          var treemap = d3.select("#vis").append("svg")
+
+            .chart("treemap")
+
+              .value("size")
+              .sortable("_DESC_")
+              //.zoomable()
+              .collapsible()
+              //.duration()
+              //.colors(['#FF0000', '#00FF00', '#0000FF'])
+              ;
+
+          treemap.draw(json);
+
+        });
+      }());
+    </script>
