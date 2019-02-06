@@ -32,7 +32,7 @@ var makeVis = function(cerealMap) {
         .range([height, 0]);
 
     // Create canvas
-    var canvas = d3.select("#chart")
+    var canvas = d3.select(".chart")
       .append("svg")
         .attr("width",  width  + margin.left + margin.right)
         .attr("height", height + margin.top  + margin.bottom)
