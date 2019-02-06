@@ -105,9 +105,3 @@ div.tooltip {
     box-shadow: 0px 2px 2px #888888;
     pointer-events: none;           
 }
-
-#container {
-    min-width: 300px;
-    max-width: 600px;
-    margin: 0 auto;
-}
