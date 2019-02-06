@@ -36,10 +36,7 @@ Sources:
 	<svg class="chart"></svg>
 	<div class="caption">OECD 2012: <a href="http://www.oecd.org/gender/data/education/">
 	http://www.oecd.org/gender/data/education/</a></div>
-            <div id="container"></div>
-	<script src="https://code.highcharts.com/highcharts.js"></script>
-            <script src="https://code.highcharts.com/modules/heatmap.js"></script>
-            <script src="https://code.highcharts.com/modules/treemap.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
             <script src="https://ajander.github.io/js/treemap.js"></script>
 
 </body>
