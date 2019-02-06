@@ -30,7 +30,8 @@ date: 2019-02-06
 
 <body>
 	<div class="chart-title">Interactive Tree Map</div>
-	<svg class="chart"></svg>
+	<!-- <svg class="chart"></svg> -->
+            <svg id="chart"></svg>
 	<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
             <script src="https://ajander.github.io/js/treemap.js"></script>
 
