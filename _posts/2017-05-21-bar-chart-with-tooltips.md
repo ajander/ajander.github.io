@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Basic Bar Chart with Tooltips"
+title: "Basic Bar Chart with Tooltips (d3.js)"
 date: 2017-05-21
 ---
 
