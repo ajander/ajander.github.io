@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CS Degrees Awarded to Women"
+title: "CS Degrees Awarded to Women (d3.js)"
 date: 2017-06-05
 ---
 
