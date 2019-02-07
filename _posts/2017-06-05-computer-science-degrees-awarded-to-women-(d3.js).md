@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Computer Science Degrees Awarded to Women (d3.js)"
+title: "Computer Science Degrees Awarded to Women"
 date: 2017-06-05
 ---
 
