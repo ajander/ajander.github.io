@@ -1,0 +1,19 @@
+{
+  "name": "ajander",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajander/ajander.github.io.git"
+  },
+  "author": "ajander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajander/ajander.github.io/issues"
+  },
+  "homepage": "https://github.com/ajander/ajander.github.io#readme"
+}
